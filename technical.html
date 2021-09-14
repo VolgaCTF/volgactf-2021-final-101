@@ -31,12 +31,12 @@
       </ul>
 
       <h2 id="network" class="mt-4">Network</h2>
-        <p>Each team's network segment has the following address: <code>10.10.N.0/24</code>, where <strong>N</strong> stands for a team's number.</p>
+        <p>Each team's network segment has the following address: <code>10.5.1XY.0/24</code>, where <strong>XY</strong> stands for a team's number (zero-based).</p>
       <p>Scoreboard URL (intranet): <a href="https://final.volgactf.ru/scoreboard" target="_blank" rel="noopener">https://final.volgactf.ru/scoreboard</a></p>
       <p>Scoreboard URL (public): <a href="https://live.volgactf.ru/scoreboard" target="_blank" rel="noopener">https://live.volgactf.ru/scoreboard</a></p>
 
       <h2 id="vulnbox" class="mt-4">Vulnbox</h2>
-      <p>A vulnbox instance <strong>MUST</strong> have the following address: <code>10.10.N.3</code>.</p>
+      <p>A vulnbox instance <strong>MUST</strong> have the following address: <code>10.5.1XY.3</code>.</p>
       <p>The vulnbox is based on Debian 11, all services are isolated from each other by the means of Docker. Containers start at boot.</p>
       <details>
         <summary><strong>If you play onsite</strong></summary>
@@ -46,7 +46,7 @@
 
       <h2 id="extra-instance" class="mt-4">Extra instance (remote teams)</h2>
       <p>Extra instances are placed within each remote team's network segment, one for each team.</p>
-      <p>An extra instance <strong>HAS</strong> the following address: <code>10.10.N.4</code>.</p>
+      <p>An extra instance <strong>HAS</strong> the following address: <code>10.5.1XY.4</code>.</p>
       <p>Make use of an <strong>extra instance</strong> so as to <strong>avoid network latency</strong> between local and remote segments of the competition network.</p>
       <p>It is <strong>strongly recommended</strong> that you launch attacks and submit captured flags from an extra instance.</p>
 
